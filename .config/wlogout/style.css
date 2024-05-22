@@ -1,0 +1,56 @@
+window {
+    font-family: BlexMono Nerd Font;
+    font-size: 13pt;
+    color: #ebdbb2; /* text */
+    background-color: transparent;
+    color: #282828;
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #ebdbb2;
+    background-color: rgba(40, 40, 40, 0.76);
+    margin: 10px;
+    transition:
+        box-shadow 0.3s ease-in-out,
+        background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    color: #282828;
+}
+
+button:focus {
+    background-color: #706341;
+    color: #282828;
+}
+
+#lock {
+    background-image: image(url("./lock.png"));
+}
+
+
+#logout {
+    background-image: image(url("./logout.png"));
+}
+
+#suspend {
+    background-image: image(url("./sleep.png"));
+}
+
+#shutdown {
+    background-image: image(url("./power.png"));
+}
+
+#reboot {
+    background-image: image(url("./restart.png"));
+}
+
+#windows {
+    background-image: image(url("./windows.png"));
+}
