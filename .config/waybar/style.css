@@ -15,6 +15,10 @@ window#waybar {
 	padding: 0px 0px 0px 0px;
 }
 
+.modules-center {
+	background-color: #323232;
+	padding: 0px 0px 0px 0px;
+}
 
 .modules-right {
 	background-color: #323232;
@@ -69,7 +73,7 @@ window#waybar.empty {
 }
 
 
-#custom-power, #network, #pulseudio, #battery, #cpu, #memory, #temperature, #bluetooth {
+#custom-spotify, #custom-power, #network, #pulseudio, #battery, #cpu, #memory, #temperature, #bluetooth {
     padding: 0px 5px 0px 5px;
 }
 
@@ -91,4 +95,8 @@ window#waybar.empty {
 
 #network.disconnected {
     color: #ff5555;
+}
+
+#temperature.hot {
+	color: #ff5555;
 }
